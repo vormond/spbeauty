@@ -6,10 +6,10 @@ import IconOnlyButton from '../../../../../Components/IconOnlyButton.js';
 
 const Option = styled.div`
     outline: none;
-    border-radius: 0px;
-    border: solid #152842 1px;
-    background-color: #D9E2EF;
-    color: #666787;
+    border-radius: 24px;
+    border: solid #E2E8F0 1px;
+    background-color: #F8FAFC;
+    color: #0F172A;
 `;
 
 function ListElement(props) {
