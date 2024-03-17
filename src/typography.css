@@ -6,13 +6,13 @@ body {
 
 .large-title {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 28px;
   line-height: 28px;
 }
 
 .title {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 18px;
 }
 
@@ -52,3 +52,9 @@ input,
   line-height: 12px;
 }
 
+.inter-regular-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400; /* Regular */
+    font-size: 15px;
+    color: #64748B;
+}
