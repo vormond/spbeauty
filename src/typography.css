@@ -1,17 +1,17 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: '', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .large-title {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 28px;
-  line-height: 28px;
+  line-height: 34px;
 }
 
 .title {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
   line-height: 18px;
 }
@@ -25,7 +25,7 @@ body {
 .text-md {
   font-weight: 400;
   font-size: 15px;
-  line-height: 17px;
+  line-height: 18px;
 }
 
 .text-rg-bd {
@@ -52,9 +52,16 @@ input,
   line-height: 12px;
 }
 
-.inter-regular-text {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400; /* Regular */
-    font-size: 15px;
-    color: #64748B;
+.caption-md {
+  color: #94A3B8;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.caption-sm {
+  color: red;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 8px;
 }

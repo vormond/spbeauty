@@ -13,7 +13,7 @@ const Input = styled.input`
     border: solid #E2E8F0 1px;
     background-color: #F8FAFC;
     width: 100%;
-    padding: 8px; /* Adjusted padding */
+    padding: 8px 16px 8px 16px; /* Adjusted padding */
     &:hover {
         background: linear-gradient(180deg, #DFEAF1 0%, #CFDDE8 100%);
     }
@@ -32,7 +32,7 @@ const SearchIconWrapper = styled.div`
 function SearchField() {
     return (
         <WrapperInput className='d-inline-flex'>  
-            <Input className='p-2' placeholder='Найти'/>
+            <Input className='' placeholder='Найти'/>
             <SearchIconWrapper className='p-2'>
                 <IconOnlyButton icon={<SearchIcon />} />
             </SearchIconWrapper>
