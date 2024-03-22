@@ -18,10 +18,10 @@ function Addresses() {
     };
 
     return (
-        <div style={{ minWidth: '447px' }}  className='d-flex flex-column justify-content-between'>
-            <div className= ' d-flex flex-column gap-2 mt-4 justify-content-between'>
+        <div style={{ minWidth: '453px', border: '1px solid rgba(100, 116, 139, 0.12)', borderRadius: '8px', padding: '24px' }}  className='d-flex flex-column justify-content-between'>
+            <div className= ' d-flex flex-column gap-2 justify-content-between'>
 
-                <div className='title mb-3'>Адреса заведений</div>
+                <div className='title'>Адреса заведений</div>
 
                 <div className='d-inline-flex flex-column gap-3'>
                     <div style={{ marginTop: '16px', marginBottom: '16px' }}>

@@ -15,7 +15,7 @@ const Input = styled.input`
     width: 100%;
     padding: 8px 16px 8px 16px; /* Adjusted padding */
     &:hover {
-        background: linear-gradient(180deg, #DFEAF1 0%, #CFDDE8 100%);
+        background-color: #F8FAFC;
     }
     &:focus {
         background: white;

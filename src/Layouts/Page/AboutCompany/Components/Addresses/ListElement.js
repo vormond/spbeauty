@@ -5,7 +5,6 @@ import RemoveIcon from '../../../../../Icons/RemoveIcon';
 import IconOnlyButton from '../../../../../Components/IconOnlyButton.js';
 
 const Option = styled.div`
-
 `;
 
 const ButtonLeftWrapper = styled.div`
